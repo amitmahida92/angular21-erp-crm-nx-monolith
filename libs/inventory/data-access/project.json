@@ -1,0 +1,8 @@
+{
+  "name": "inventory-data-access",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "root": "libs/inventory/data-access",
+  "sourceRoot": "libs/inventory/data-access/src",
+  "tags": ["type:data-access", "scope:inventory"]
+}

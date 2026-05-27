@@ -1,0 +1,79 @@
+{
+  "name": "erp-crm",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "root": "apps/erp-crm",
+  "sourceRoot": "apps/erp-crm/src",
+  "prefix": "app",
+  "tags": ["type:app", "scope:shell"],
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:webpack-browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/erp-crm",
+        "index": "apps/erp-crm/src/index.html",
+        "main": "apps/erp-crm/src/main.ts",
+        "tsConfig": "apps/erp-crm/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/erp-crm/public"
+          }
+        ],
+        "styles": ["apps/erp-crm/src/styles.scss"]
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "900kB",
+              "maximumError": "1.5MB"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "12kB",
+              "maximumError": "18kB"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "sourceMap": true
+        },
+        "github-pages": {
+          "baseHref": "/angular21-erp-crm-nx-monolith/",
+          "deployUrl": "/angular21-erp-crm-nx-monolith/",
+          "outputHashing": "all"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@nx/angular:dev-server",
+      "options": {
+        "buildTarget": "erp-crm:build:development",
+        "port": 4200
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "erp-crm:build:production"
+        },
+        "development": {
+          "buildTarget": "erp-crm:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "test": {
+      "executor": "@nx/angular:unit-test",
+      "options": {
+        "buildTarget": "erp-crm:build:development"
+      }
+    }
+  }
+}

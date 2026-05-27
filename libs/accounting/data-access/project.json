@@ -1,0 +1,8 @@
+{
+  "name": "accounting-data-access",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "root": "libs/accounting/data-access",
+  "sourceRoot": "libs/accounting/data-access/src",
+  "tags": ["type:data-access", "scope:accounting"]
+}

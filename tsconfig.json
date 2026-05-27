@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/erp-crm/tsconfig.app.json"
+    },
+    {
+      "path": "./apps/erp-crm/tsconfig.spec.json"
+    }
+  ]
+}

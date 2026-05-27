@@ -1,0 +1,8 @@
+{
+  "name": "crm-data-access",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "root": "libs/crm/data-access",
+  "sourceRoot": "libs/crm/data-access/src",
+  "tags": ["type:data-access", "scope:crm"]
+}

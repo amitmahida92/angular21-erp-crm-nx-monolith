@@ -1,0 +1,8 @@
+{
+  "name": "inventory-ui",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "root": "libs/inventory/ui",
+  "sourceRoot": "libs/inventory/ui/src",
+  "tags": ["type:ui", "scope:inventory"]
+}

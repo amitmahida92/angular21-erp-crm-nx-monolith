@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "dom"],
+    "paths": {
+      "@erp-crm/accounting/data-access": ["libs/accounting/data-access/src/index.ts"],
+      "@erp-crm/accounting/feature": ["libs/accounting/feature/src/index.ts"],
+      "@erp-crm/accounting/ui": ["libs/accounting/ui/src/index.ts"],
+      "@erp-crm/crm/data-access": ["libs/crm/data-access/src/index.ts"],
+      "@erp-crm/crm/feature": ["libs/crm/feature/src/index.ts"],
+      "@erp-crm/crm/ui": ["libs/crm/ui/src/index.ts"],
+      "@erp-crm/inventory/data-access": ["libs/inventory/data-access/src/index.ts"],
+      "@erp-crm/inventory/feature": ["libs/inventory/feature/src/index.ts"],
+      "@erp-crm/inventory/ui": ["libs/inventory/ui/src/index.ts"],
+      "@erp-crm/shared/data-access": ["libs/shared/data-access/src/index.ts"],
+      "@erp-crm/shared/models": ["libs/shared/models/src/index.ts"],
+      "@erp-crm/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@erp-crm/shared/util": ["libs/shared/util/src/index.ts"]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "typeCheckHostBindings": true,
+    "strictTemplates": true
+  }
+}

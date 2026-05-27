@@ -1,0 +1,8 @@
+{
+  "name": "crm-feature",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "root": "libs/crm/feature",
+  "sourceRoot": "libs/crm/feature/src",
+  "tags": ["type:feature", "scope:crm"]
+}
