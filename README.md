@@ -97,6 +97,8 @@ GitHub Pages build:
 npm run build:gh-pages
 ```
 
+Final repository publishing and Pages enablement steps are documented in [docs/publish-checklist.md](docs/publish-checklist.md).
+
 ## Migration Story
 
 The domain feature libraries are intentionally shaped as future extraction points:
