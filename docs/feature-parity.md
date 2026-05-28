@@ -32,3 +32,7 @@ npm run build
 npm run build:gh-pages
 npm test
 ```
+
+Latest QA report:
+
+- [Feature Parity QA Report](./feature-parity-qa-report.md)

@@ -1,5 +1,9 @@
 # Medium Article Outline
 
+Full draft:
+
+- [Medium article draft](./medium-article-draft.md)
+
 ## Topic
 
 From Nx Monolith to Micro-Frontends in Angular 21.
