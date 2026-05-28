@@ -59,10 +59,6 @@ The demo is intentionally small, but it behaves like the kind of frontend that g
 
 Sales is represented through CRM opportunities and pipeline.
 
-HR is not included because the reference MFE version does not include HR.
-
-That constraint matters. If the article compares two architectures, the product surface must not quietly change underneath the reader.
-
 ## Graphic 1: Same Product, Two Architectures
 
 ![Same product, two architectures](article-assets/01-same-product-two-architectures.svg)
