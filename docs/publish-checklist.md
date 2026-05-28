@@ -42,6 +42,14 @@ In GitHub:
 3. Set source to `GitHub Actions`.
 4. Run the `Deploy Angular 21 Nx Monolith` workflow if it does not run automatically.
 
+If the first workflow run fails with:
+
+```text
+Create Pages site failed. Error: Resource not accessible by integration
+```
+
+then GitHub Pages still needs to be enabled once by a repository admin. After the source is set to `GitHub Actions`, rerun the workflow.
+
 ## Verify
 
 ```bash
