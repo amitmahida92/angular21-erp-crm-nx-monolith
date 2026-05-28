@@ -1,5 +1,5 @@
 <svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">From Nx Monolith to Micro-Frontends in Angular 21</title>
+  <title id="title">From Nx Monolith to Micro-Frontends: A Real Migration Story</title>
   <desc id="desc">Article cover showing an ERP CRM monolith splitting into shell and remote applications.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">

@@ -1,8 +1,8 @@
-# From Nx Monolith To Micro-Frontends In Angular 21
+# From Nx Monolith to Micro-Frontends: A Real Migration Story
 
 Subtitle: Building the same ERP/CRM product twice so the architecture tradeoff becomes visible.
 
-![From Nx Monolith to Micro-Frontends in Angular 21](article-assets/cover-monolith-to-mfe.svg)
+![From Nx Monolith to Micro-Frontends: A Real Migration Story](article-assets/cover-monolith-to-mfe.svg)
 
 ## Draft Status
 
@@ -10,7 +10,7 @@ This is a Medium-ready first draft. It is intentionally dramatic, but still prac
 
 Recommended final title:
 
-**From Nx Monolith to Micro-Frontends in Angular 21: The Migration Story I Wish I Had Read First**
+**From Nx Monolith to Micro-Frontends: A Real Migration Story**
 
 ## Opening
 
