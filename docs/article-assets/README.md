@@ -14,6 +14,8 @@ These SVG files are Medium-ready visual source assets for `docs/medium-article-d
 | `05-deployment-before-after.svg` | Act 7 deployment comparison |
 | `06-final-mfe-architecture.svg` | Act 8 final MFE architecture |
 
+PNG versions are available in `png-wide/` for Medium upload or embedding. These are preferred for publishing because Medium handles PNGs more consistently than SVGs.
+
 ## Publishing Note
 
-Medium accepts uploaded images more reliably than relative Markdown file paths. Before publishing, export these SVGs to PNG if needed, then upload the images into the Medium editor.
+Medium accepts uploaded images more reliably than relative Markdown file paths. Use the `png-wide/` files for the article draft, and keep the SVG files as editable sources.

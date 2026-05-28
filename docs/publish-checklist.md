@@ -80,8 +80,18 @@ Graphic source assets:
 - `docs/article-assets/05-deployment-before-after.svg`
 - `docs/article-assets/06-final-mfe-architecture.svg`
 
+Medium-ready PNG assets:
+
+- `docs/article-assets/png-wide/cover-monolith-to-mfe.png`
+- `docs/article-assets/png-wide/01-same-product-two-architectures.png`
+- `docs/article-assets/png-wide/02-comfortable-monolith.png`
+- `docs/article-assets/png-wide/03-release-pressure.png`
+- `docs/article-assets/png-wide/04-crm-extraction.png`
+- `docs/article-assets/png-wide/05-deployment-before-after.png`
+- `docs/article-assets/png-wide/06-final-mfe-architecture.png`
+
 Before publishing:
 
-- Upload the SVG assets directly to Medium, or export them to PNG first.
+- Use the `png-wide/` images for Medium.
 - Capture fresh screenshots from the live monolith and live MFE demo.
 - Keep the screenshot pairs route-aligned so the article proves parity visually.
