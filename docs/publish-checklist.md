@@ -63,3 +63,25 @@ After the workflow completes, verify:
 - Root route loads at `https://amitmahida92.github.io/angular21-erp-crm-nx-monolith/`
 - Deep links refresh correctly, including `/crm`, `/inventory`, and `/accounting`
 - Lazy chunks load from `/angular21-erp-crm-nx-monolith/`
+
+## Medium Article Assets
+
+Article draft:
+
+- `docs/medium-article-draft.md`
+
+Graphic source assets:
+
+- `docs/article-assets/cover-monolith-to-mfe.svg`
+- `docs/article-assets/01-same-product-two-architectures.svg`
+- `docs/article-assets/02-comfortable-monolith.svg`
+- `docs/article-assets/03-release-pressure.svg`
+- `docs/article-assets/04-crm-extraction.svg`
+- `docs/article-assets/05-deployment-before-after.svg`
+- `docs/article-assets/06-final-mfe-architecture.svg`
+
+Before publishing:
+
+- Upload the SVG assets directly to Medium, or export them to PNG first.
+- Capture fresh screenshots from the live monolith and live MFE demo.
+- Keep the screenshot pairs route-aligned so the article proves parity visually.

@@ -2,6 +2,8 @@
 
 Subtitle: Building the same ERP/CRM product twice so the architecture tradeoff becomes visible.
 
+![From Nx Monolith to Micro-Frontends in Angular 21](article-assets/cover-monolith-to-mfe.svg)
+
 ## Draft Status
 
 This is a Medium-ready first draft. It is intentionally dramatic, but still practical and step-by-step.
@@ -63,22 +65,9 @@ That constraint matters. If the article compares two architectures, the product 
 
 ## Graphic 1: Same Product, Two Architectures
 
-Medium does not render Mermaid directly. Export this diagram as PNG or SVG before publishing.
+![Same product, two architectures](article-assets/01-same-product-two-architectures.svg)
 
-```mermaid
-flowchart LR
-  User["User"]
-  Product["Same ERP/CRM Experience"]
-  Monolith["Nx Modular Monolith"]
-  MFE["Angular 21 Micro-Frontends"]
-
-  User --> Product
-  Product --> Monolith
-  Product --> MFE
-
-  Monolith --> MonolithRoutes["Local lazy-loaded feature libraries"]
-  MFE --> MFERoutes["Runtime shell plus remote apps"]
-```
+Use this as the first architecture visual. It tells the reader the rule of the experiment immediately: the ERP/CRM product stays the same, while the architecture changes underneath it.
 
 ## Act 1: The Comfortable Nx Monolith
 
@@ -135,25 +124,7 @@ export const routes: Routes = [
 
 ## Graphic 2: The Comfortable Monolith
 
-```mermaid
-flowchart TB
-  App["apps/erp-crm"]
-  Dashboard["Dashboard and layout"]
-  CRM["libs/crm/feature"]
-  Inventory["libs/inventory/feature"]
-  Accounting["libs/accounting/feature"]
-  Shared["Shared UI, models, util, data"]
-  Pages["Single GitHub Pages deployment"]
-
-  App --> Dashboard
-  App --> CRM
-  App --> Inventory
-  App --> Accounting
-  CRM --> Shared
-  Inventory --> Shared
-  Accounting --> Shared
-  App --> Pages
-```
+![The comfortable Nx monolith](article-assets/02-comfortable-monolith.svg)
 
 ## Act 2: The ERP Starts Growing
 
@@ -201,19 +172,7 @@ Because the deployment model no longer matches the team model.
 
 ## Graphic 3: Release Pressure
 
-```mermaid
-flowchart LR
-  CRMTeam["CRM team wants fast release"]
-  InventoryTeam["Inventory team wants controlled release"]
-  AccountingTeam["Accounting team wants audited release"]
-  OneBuild["One monolith build"]
-  OneDeploy["One deployment gate"]
-
-  CRMTeam --> OneBuild
-  InventoryTeam --> OneBuild
-  AccountingTeam --> OneBuild
-  OneBuild --> OneDeploy
-```
+![Release pressure inside one deployment boundary](article-assets/03-release-pressure.svg)
 
 ## Act 4: Drawing Domain Boundaries
 
@@ -276,17 +235,7 @@ The architecture underneath changes completely.
 
 ## Graphic 4: CRM Extraction
 
-```mermaid
-flowchart LR
-  Before["libs/crm/feature"]
-  Extract["Extract route tree and screens"]
-  Remote["angular21-erp-crm-crm-app"]
-  Shell["angular21-erp-crm-shell"]
-
-  Before --> Extract
-  Extract --> Remote
-  Shell --> Remote
-```
+![Extracting CRM from local feature library to remote app](article-assets/04-crm-extraction.svg)
 
 ## Act 6: Wiring Angular 21 Module Federation
 
@@ -356,30 +305,7 @@ You buy team autonomy with operational complexity.
 
 ## Graphic 5: Deployment Before And After
 
-```mermaid
-flowchart TB
-  subgraph Before["Before: Nx monolith"]
-    MonoBuild["One build"]
-    MonoPages["One GitHub Pages site"]
-    MonoBuild --> MonoPages
-  end
-
-  subgraph After["After: micro-frontends"]
-    ShellBuild["Shell build"]
-    CRMBuild["CRM remote build"]
-    InventoryBuild["Inventory remote build"]
-    AccountingBuild["Accounting remote build"]
-    ShellPages["Shell Pages site"]
-    CRMPages["CRM Pages site"]
-    InventoryPages["Inventory Pages site"]
-    AccountingPages["Accounting Pages site"]
-
-    ShellBuild --> ShellPages
-    CRMBuild --> CRMPages
-    InventoryBuild --> InventoryPages
-    AccountingBuild --> AccountingPages
-  end
-```
+![Deployment before and after micro-frontends](article-assets/05-deployment-before-after.svg)
 
 ## Act 8: Final Architecture
 
@@ -397,23 +323,7 @@ Shared libraries become contracts that need more discipline, not less.
 
 ## Graphic 6: Final MFE Architecture
 
-```mermaid
-flowchart TB
-  User["User"]
-  Shell["Shell host: layout, dashboard, navigation"]
-  CRM["CRM remote"]
-  Inventory["Inventory remote"]
-  Accounting["Accounting remote"]
-  Shared["Shared UI and contracts"]
-
-  User --> Shell
-  Shell --> CRM
-  Shell --> Inventory
-  Shell --> Accounting
-  CRM --> Shared
-  Inventory --> Shared
-  Accounting --> Shared
-```
+![Final Angular 21 micro-frontend architecture](article-assets/06-final-mfe-architecture.svg)
 
 ## Act 9: Lessons Learned
 
@@ -456,7 +366,7 @@ Capture these after final QA:
 
 ## Publishing Notes
 
-- Convert Mermaid diagrams to PNG or SVG before posting to Medium.
+- Upload the SVG assets from `docs/article-assets/` into Medium, or export them to PNG first if Medium's SVG handling is inconsistent.
 - Keep code snippets short.
 - Link the repos near the top and again near the end.
 - Mention that Sales is represented through CRM and HR is intentionally absent for parity.
@@ -464,4 +374,4 @@ Capture these after final QA:
 
 ## Compact Checkpoint
 
-Medium article draft created. The article now has a dramatic act structure, repo links, code snippets, diagram source blocks, screenshot guidance, and the core migration argument.
+Medium article draft created and graphic assets added. The article now has a dramatic act structure, repo links, code snippets, exported SVG diagram assets, screenshot guidance, and the core migration argument.

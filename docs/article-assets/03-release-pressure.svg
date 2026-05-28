@@ -1,0 +1,38 @@
+<svg width="1400" height="788" viewBox="0 0 1400 788" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Release Pressure</title>
+  <desc id="desc">Three domain teams push through one monolith build and one deployment gate.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#101820" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="788" fill="#101820"/>
+  <text x="92" y="118" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0">Act 3: The First Architectural Crack</text>
+  <text x="92" y="162" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="0">The code is modular. The release boundary is not.</text>
+  <g filter="url(#shadow)">
+    <rect x="116" y="250" width="274" height="104" rx="22" fill="#35D0BA"/>
+    <text x="253" y="297" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="0">CRM team</text>
+    <text x="253" y="328" fill="#10443C" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">fast release cycle</text>
+    <rect x="116" y="410" width="274" height="104" rx="22" fill="#F7C948"/>
+    <text x="253" y="457" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="0">Inventory team</text>
+    <text x="253" y="488" fill="#604500" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">controlled releases</text>
+    <rect x="116" y="570" width="274" height="104" rx="22" fill="#FF6B5F"/>
+    <text x="253" y="617" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="0">Accounting team</text>
+    <text x="253" y="648" fill="#5E1F1A" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">audited change window</text>
+  </g>
+  <path d="M390 302 C498 302 534 394 632 394 M390 462 H632 M390 622 C498 622 534 530 632 530" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="632" y="342" width="260" height="236" rx="28" fill="#FFFFFF"/>
+    <text x="762" y="433" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle" letter-spacing="0">One build</text>
+    <text x="762" y="476" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">all domains wait</text>
+    <rect x="694" y="512" width="136" height="18" rx="9" fill="#E2E8F0"/>
+  </g>
+  <path d="M892 460 H1018" stroke="#F7C948" stroke-width="9" stroke-linecap="round"/>
+  <path d="M992 432 L1032 460 L992 488" stroke="#F7C948" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="1032" y="342" width="252" height="236" rx="28" fill="#FFFFFF"/>
+    <text x="1158" y="433" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle" letter-spacing="0">One gate</text>
+    <text x="1158" y="476" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">one release decision</text>
+    <rect x="1110" y="512" width="96" height="18" rx="9" fill="#FF6B5F"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg width="1400" height="788" viewBox="0 0 1400 788" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Extracting the CRM Remote</title>
+  <desc id="desc">The CRM feature library is extracted from the monolith into a separately deployed CRM remote, while the shell keeps navigation and layout.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#101820" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="788" fill="#F8FAFC"/>
+  <text x="92" y="118" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0">Act 5: Extracting The First Remote</text>
+  <text x="92" y="162" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="0">The route stays /crm. The ownership model changes.</text>
+  <g filter="url(#shadow)">
+    <rect x="112" y="268" width="334" height="254" rx="28" fill="#101820"/>
+    <text x="279" y="331" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="800" text-anchor="middle" letter-spacing="0">Before</text>
+    <rect x="158" y="372" width="242" height="76" rx="18" fill="#35D0BA"/>
+    <text x="279" y="417" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="middle" letter-spacing="0">libs/crm/feature</text>
+    <text x="279" y="482" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" letter-spacing="0">local lazy route</text>
+  </g>
+  <path d="M446 395 H610" stroke="#F7C948" stroke-width="9" stroke-linecap="round"/>
+  <path d="M584 366 L626 395 L584 424" stroke="#F7C948" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="626" y="296" width="238" height="198" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="745" y="367" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="800" text-anchor="middle" letter-spacing="0">Extract</text>
+    <text x="745" y="410" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">routes</text>
+    <text x="745" y="438" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">screens</text>
+    <text x="745" y="466" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">domain ownership</text>
+  </g>
+  <path d="M864 395 H1028" stroke="#FF6B5F" stroke-width="9" stroke-linecap="round"/>
+  <path d="M1002 366 L1044 395 L1002 424" stroke="#FF6B5F" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="1044" y="234" width="264" height="136" rx="24" fill="#35D0BA"/>
+    <text x="1176" y="291" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="0">CRM remote</text>
+    <text x="1176" y="324" fill="#10443C" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">owns CRM screens</text>
+    <rect x="1044" y="430" width="264" height="136" rx="24" fill="#101820"/>
+    <text x="1176" y="487" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="0">Shell host</text>
+    <text x="1176" y="520" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">loads CRM at runtime</text>
+  </g>
+  <path d="M1176 430 V370" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+</svg>

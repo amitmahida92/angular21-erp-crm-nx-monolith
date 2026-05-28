@@ -1,0 +1,41 @@
+<svg width="1400" height="788" viewBox="0 0 1400 788" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Same Product, Two Architectures</title>
+  <desc id="desc">A user reaches the same ERP CRM product experience through an Nx monolith or Angular micro-frontends.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#101820" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="788" fill="#F8FAFC"/>
+  <rect x="72" y="58" width="1256" height="672" rx="34" fill="#101820"/>
+  <text x="120" y="134" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0">Same Product, Two Architectures</text>
+  <text x="120" y="178" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="0">User-facing parity is the control variable in the migration story.</text>
+  <g filter="url(#shadow)">
+    <rect x="120" y="304" width="192" height="118" rx="22" fill="#FFFFFF"/>
+    <text x="216" y="358" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle" letter-spacing="0">User</text>
+    <text x="216" y="392" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" letter-spacing="0">same behavior</text>
+  </g>
+  <path d="M312 363 H496" stroke="#35D0BA" stroke-width="8" stroke-linecap="round"/>
+  <path d="M470 338 L506 363 L470 388" stroke="#35D0BA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="516" y="266" width="326" height="194" rx="26" fill="#FFFFFF"/>
+    <text x="679" y="334" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" text-anchor="middle" letter-spacing="0">ERP/CRM Experience</text>
+    <text x="679" y="376" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" letter-spacing="0">dashboard, CRM, inventory, accounting</text>
+    <rect x="574" y="405" width="78" height="16" rx="8" fill="#35D0BA"/>
+    <rect x="664" y="405" width="78" height="16" rx="8" fill="#F7C948"/>
+    <rect x="754" y="405" width="78" height="16" rx="8" fill="#FF6B5F"/>
+  </g>
+  <path d="M842 330 C934 300 944 252 1024 248" stroke="#F7C948" stroke-width="8" stroke-linecap="round"/>
+  <path d="M842 396 C934 426 944 474 1024 478" stroke="#FF6B5F" stroke-width="8" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="1024" y="176" width="246" height="144" rx="24" fill="#FFFFFF"/>
+    <text x="1147" y="232" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="0">Nx Monolith</text>
+    <text x="1147" y="270" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="middle" letter-spacing="0">local lazy feature libraries</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1024" y="428" width="246" height="144" rx="24" fill="#FFFFFF"/>
+    <text x="1147" y="484" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="0">Micro-Frontends</text>
+    <text x="1147" y="522" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="middle" letter-spacing="0">shell plus runtime remotes</text>
+  </g>
+  <text x="120" y="660" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="0">The article compares architecture, not product scope.</text>
+</svg>

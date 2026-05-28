@@ -1,0 +1,50 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">From Nx Monolith to Micro-Frontends in Angular 21</title>
+  <desc id="desc">Article cover showing an ERP CRM monolith splitting into shell and remote applications.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101820"/>
+      <stop offset="0.45" stop-color="#14242F"/>
+      <stop offset="1" stop-color="#1C1714"/>
+    </linearGradient>
+    <linearGradient id="line" x1="292" y1="450" x2="1308" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35D0BA"/>
+      <stop offset="0.5" stop-color="#F7C948"/>
+      <stop offset="1" stop-color="#FF6B5F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M100 760 C340 650 498 782 742 666 C984 552 1038 680 1500 548" stroke="#2A3E49" stroke-width="2" opacity="0.65"/>
+  <path d="M128 214 C368 154 544 250 800 176 C1054 102 1198 226 1476 128" stroke="#2A3E49" stroke-width="2" opacity="0.55"/>
+  <text x="140" y="132" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="0">From Nx Monolith</text>
+  <text x="140" y="202" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="0">to Micro-Frontends</text>
+  <text x="140" y="258" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="0">Angular 21 migration story for ERP/CRM teams</text>
+  <g filter="url(#shadow)">
+    <rect x="140" y="354" width="442" height="238" rx="24" fill="#F8FAFC"/>
+    <rect x="164" y="382" width="394" height="40" rx="12" fill="#E2E8F0"/>
+    <rect x="164" y="452" width="120" height="92" rx="16" fill="#35D0BA"/>
+    <rect x="306" y="452" width="110" height="92" rx="16" fill="#F7C948"/>
+    <rect x="438" y="452" width="120" height="92" rx="16" fill="#FF6B5F"/>
+    <text x="208" y="405" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" letter-spacing="0">Nx Modular Monolith</text>
+    <text x="194" y="505" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle" letter-spacing="0">CRM</text>
+    <text x="361" y="505" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle" letter-spacing="0">INV</text>
+    <text x="498" y="505" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle" letter-spacing="0">ACC</text>
+  </g>
+  <path d="M638 472 H962" stroke="url(#line)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M934 442 L984 472 L934 502" stroke="#F7C948" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="1018" y="314" width="160" height="86" rx="22" fill="#F8FAFC"/>
+    <text x="1098" y="364" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" letter-spacing="0">Shell</text>
+    <rect x="926" y="468" width="160" height="86" rx="22" fill="#35D0BA"/>
+    <text x="1006" y="518" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" letter-spacing="0">CRM</text>
+    <rect x="1122" y="468" width="160" height="86" rx="22" fill="#F7C948"/>
+    <text x="1202" y="518" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" letter-spacing="0">Inventory</text>
+    <rect x="1318" y="468" width="160" height="86" rx="22" fill="#FF6B5F"/>
+    <text x="1398" y="518" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" letter-spacing="0">Accounting</text>
+    <path d="M1098 400 V436 M1098 436 H1006 V468 M1098 436 H1202 V468 M1098 436 H1398 V468" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="140" y="786" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="0">Same product. Same routes. Same UI. Different architecture.</text>
+</svg>

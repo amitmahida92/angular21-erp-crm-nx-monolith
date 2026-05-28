@@ -1,0 +1,40 @@
+<svg width="1400" height="788" viewBox="0 0 1400 788" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The Comfortable Nx Monolith</title>
+  <desc id="desc">One Angular app loads local CRM, inventory, and accounting feature libraries and deploys to one GitHub Pages site.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#101820" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="788" fill="#F8FAFC"/>
+  <text x="92" y="118" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0">Act 1: The Comfortable Nx Monolith</text>
+  <text x="92" y="162" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="500" letter-spacing="0">Clear boundaries, one app, one build, one deployment.</text>
+  <g filter="url(#shadow)">
+    <rect x="456" y="218" width="488" height="106" rx="22" fill="#101820"/>
+    <text x="700" y="278" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="800" text-anchor="middle" letter-spacing="0">apps/erp-crm</text>
+    <text x="700" y="306" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" letter-spacing="0">layout, dashboard, routing, deployment</text>
+  </g>
+  <path d="M700 324 V380" stroke="#64748B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M326 380 H1074" stroke="#64748B" stroke-width="6" stroke-linecap="round"/>
+  <path d="M326 380 V420 M700 380 V420 M1074 380 V420" stroke="#64748B" stroke-width="6" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="184" y="420" width="284" height="130" rx="22" fill="#35D0BA"/>
+    <text x="326" y="478" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle" letter-spacing="0">libs/crm/feature</text>
+    <text x="326" y="512" fill="#10443C" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">leads, opportunities, customers</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="558" y="420" width="284" height="130" rx="22" fill="#F7C948"/>
+    <text x="700" y="478" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle" letter-spacing="0">libs/inventory/feature</text>
+    <text x="700" y="512" fill="#604500" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">products, movements, warehouses</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="932" y="420" width="284" height="130" rx="22" fill="#FF6B5F"/>
+    <text x="1074" y="478" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" text-anchor="middle" letter-spacing="0">libs/accounting/feature</text>
+    <text x="1074" y="512" fill="#5E1F1A" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">invoices, payments, ledger</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="392" y="610" width="616" height="78" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="700" y="658" fill="#101820" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" letter-spacing="0">shared/ui, shared/models, shared/util, shared/data-access</text>
+  </g>
+  <path d="M326 550 C354 610 468 606 514 610 M700 550 V610 M1074 550 C1046 610 932 606 886 610" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+</svg>
